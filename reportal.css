@@ -9,5 +9,5 @@
   border-radius: var(--border-radius);
   top: var(--gutter);
   left: var(--gutter);
-  padding: var(--gitter);
+  padding: var(--gutter);
 }
