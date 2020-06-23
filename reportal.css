@@ -11,3 +11,28 @@
   left: var(--gutter);
   padding: var(--gutter);
 }
+
+/* NAVBAR ADMIN MENU */
+.navbar-nav.admin-menu a {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+.navbar-nav.admin-menu a[href*="ReportList"]:before {
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 900;
+	margin-right: 5px;
+	content: "\f659";
+}
+.navbar-nav.admin-menu a[href*="ExportReport"]:before {
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 900;
+	margin-right: 5px;
+	content: "\f56d";
+}
+.navbar-nav.admin-menu a[href*="logout"]:before {
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 900;
+	margin-right: 5px;	
+	content: "\f08b";
+}
