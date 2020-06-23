@@ -44,7 +44,7 @@
   transition: width .5s;
   width: 0;
   padding: var(--gutter);
-}
+} 
 #sidebar-nav.show {
   width: 320px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
